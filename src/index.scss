@@ -1,0 +1,53 @@
+@use "./scss/" as *;
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+a {
+    text-decoration: none;
+    color: unset;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    width: 100%;
+    overflow-x: hidden;
+    margin: 0 auto;
+    box-sizing: border-box;
+    color: white;
+    background-color: $a1-hex;
+    font-family: $font-robo;
+    background-image: linear-gradient(180deg, $a1-hex, $a2-hex);
+}
+
+.mb-2 {
+    margin-bottom: 2rem;
+}
+
+.green {
+    background-color: green;
+}
+
+.red {
+    background-color: red;
+}
+
+.hidden {
+    display: none;
+}
+
+.show {
+    display: block;
+}

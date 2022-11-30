@@ -1,0 +1,22 @@
+@use "./scss/" as *;
+.flex-view {
+    display: flex;
+
+    @include mobile {
+        flex-direction: column-reverse;
+    }
+}
+
+.flex-routes {
+    min-height: 50vh;
+    width: calc(100% - 4rem);
+    padding-bottom: 2rem;
+
+    @include mobile {
+        width: 100%;
+    }
+
+    @include desktop-l {
+        width: calc(100% - 11rem);
+    }
+}
