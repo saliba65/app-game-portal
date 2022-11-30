@@ -1,0 +1,19 @@
+@use "../../../../scss/" as *;
+
+.sign-up {
+    flex: 1;
+    @include flex(center, center);
+    flex-direction: column;
+    gap: 20px;
+
+    &__title {
+        font-size: 2.2rem;
+        text-align: center;
+    }
+
+    &__form {
+        width: 80%;
+        @include flex(center, center);
+        gap: 3rem;
+    }
+}
