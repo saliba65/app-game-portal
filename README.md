@@ -1,46 +1,85 @@
-# Getting Started with Create React App
+<h1 align="center">
+   🔗 Game-store
+</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+<a href="#descrição">🧾 Descrição</a> • 
+<a href="#tecnologias">🚀 Tecnologias</a> • 
+<a href="#features">🔨 Features</a> •
+<a href="#possiveis-melhorias">🔝 Possiveis melhorias</a> •
+<a href="#settings">⚙ settings</a> •
+<a href="#license">📝 License</a> •
+<a href="#autor">Autor</a>
 
-## Available Scripts
+</p>
 
-In the project directory, you can run:
+<img src='./src/assets/image/screenshot.png' alt='screenshot'/>
 
-### `yarn start`
+<h2>🧾Descrição</h2>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<blockquote >
+ Aplicativo de game com descrições, classificações e filtros de jogos. Consumindo uma API de jogos. RAWG Video Games Database
+</blockquote>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+<h2>🚀Tecnologias</h2/>
 
-### `yarn test`
+<p>As seguintes ferramentas foram usadas na construção do projeto:</p>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [Firebase](https://firebase.google.com/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Scss](https://sass-lang.com/)
+- [React-Icons](https://react-icons.github.io/react-icons/)
 
-### `yarn build`
+<h2>🔨Features</h2>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- [x] Listar os jogos.
+- [x] Pagina onde pode-se ver as info do jogo.
+- [x] Pesquisar por algum jogo.
+- [x] Filtrar por jogos.
+- [x] Adicionar os jogos como favoritos
+- [x] Autenticação com o firebase.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<h2>🔝Possiveis melhorias</h2>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- [ ] Add paginação.
+- [ ] Add outros filtros.
+- [ ] Add um CRUD, onde o usuário poderá criar uma lista e add os jogos de sua preferência.
 
-### `yarn eject`
+<h2>⚙Settings</h2>
+<p>Segue as instruções para baixar e executar o projeto na sua máquina:</p>
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+<p><code>git clone</code> + <code>URL do Projeto</code>: clonar este repositório.</p>
+<p><code>cd game-store</code>: acessa a pasta do projeto no terminal.</p>
+<p><code>npm i</code>: para baixar as dependências do projeto.</p>
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<h3>🪛 Pegue as chaves necessárias</h3>
+<li>Vá em <a href="https://rawg.io/apidocs" target="_blank">rawg.io</a> para pegar a primeira chave.</li>
+<li>Para pegar a segunda vá em <a href="https://rapidapi.com/accujazz/api/rawg-video-games-database" target="_blank">rapidapi.com</a> e pegue a chave <code>X-RapidAPI-Key</code>. Caso haja dúvidas nessa parte você pode ir em <a href="https://docs.rapidapi.com/docs/keys#:~:text=Go%20to%20the%20API's%20Endpoints,with%20the%20new%20API%20key.">How to find your API key</a>.</li>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+###
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+<p>Depois renomeie o arquivo .env.example para .env e coloque o seguinte</p>
 
-## Learn More
+<pre>
+  VITE_API_KEY=' ' //primeira chave
+  VITE_RAPID_KEY=' ' //segunda chave
+</pre>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- <code>npm run dev</code>:
+  Executa o projeto em modo/ambiente de desenvolvimento.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Abra http://localhost:5173/ para ver o projeto rodando no Navegador.
+
+<h2>📝License</h2>
+<p>Esse projeto está sob a licença MIT. Veja o arquivo <a href="https://github.com/the-matheuslima/blog-react/blob/main/LICENSE">LICENSE</a> para mais detalhes.</p>
+
+### Autor
+
+---
+
+<a href="https://github.com/the-matheuslima/">
+ <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/96140653?v=4" width="100px;" alt=""/>
+ <br />
+ <sub><b>Matheus Lima</b></sub></a>
+
+Feito com ❤️ por Matheus Lima 👋🏽 Entre em contato!
