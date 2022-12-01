@@ -9,7 +9,6 @@
 <a href="#possiveis-melhorias">🔝 Possiveis melhorias</a> •
 <a href="#settings">⚙ settings</a> •
 <a href="#license">📝 License</a> •
-<a href="#autor">Autor</a>
 
 </p>
 
